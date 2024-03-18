@@ -1,10 +1,10 @@
 # Event Feedback on Twitter via Rasbperrby PI
-Our Project is built to recieve real time rating on any event after attending it. User just need to press a button to give a rating. Rating is collected on a twitter account created for a given event.
+Our Project is built to recieve real time rating on any event after attending it. Attendee just need to press a button to give a rating. Rating is collected on a twitter account created for a given event.
 Along with rating, user can choose to post his/her image.
 
 
 ## Key Features
-- 
+- User can give rating on any event along with his image.
 
 
 ## Tech Stack
