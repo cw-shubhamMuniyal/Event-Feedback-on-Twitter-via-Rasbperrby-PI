@@ -9,17 +9,16 @@ Along with rating, user can choose to post his/her image.
 
 ## Tech Stack
 - Python (Latest version)
-
+- Raspberry pi os
 
 ## Components
-- Raspberry Pi 3
+- Raspberry Pi2 Model B
 - USB to connect to PC
 - Pcb Circuit Test Board
 - Raspberry Pi Camera Module
-- 2 4-legged Buttons
+- 2 4-legged Push Buttons
+- connecting wires
 
-## How to run
-1.  
 
 ## DEMO
 To watch complete the video on youtube click [Here](https://www.youtube.com/watch?v=gZaKDCxSKbI "Here")
