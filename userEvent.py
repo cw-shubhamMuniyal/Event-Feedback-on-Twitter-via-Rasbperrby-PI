@@ -1,10 +1,10 @@
 import RPi.GPIO as GPIO
 import time
-import file1
+import twitterUtility
 import file2
-import cam
-import popup2
-def but():
+import cameraModule
+import userInput
+def pressButton():
     i = 1
     j = 1
     GPIO.setmode(GPIO.BCM)
@@ -18,20 +18,20 @@ def but():
         
         if input_state == False:
             print('Button1 Pressed')
-            cam.camera()
+            cameraModule.camera()
             print('camera pressed')
-            popup2.pop2()
-            file1.start(i)
+            userInput.inputImage()
+            twitterUtility.start(i, '3 stars')
             i=i+1
             time.sleep(0.2)
 
         if input_state2 == False:
             print('Button2 Pressed')
-            cam.camera()
+            cameraModule.camera()
             print('camera pressed')
-            popup2.pop2()
-            file2.start(j)
+            userInput.inputImage()
+            file2.start(j, '4 stars')
             j=j+1
             time.sleep(0.2)
 if __name__=='__main__' :
-    but()
+    pressButton()

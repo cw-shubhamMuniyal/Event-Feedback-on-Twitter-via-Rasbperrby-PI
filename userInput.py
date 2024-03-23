@@ -2,12 +2,10 @@ from Tkinter import *
 import time
 from PIL import ImageTk, Image
 import Tkinter as tk
-import os
-import cam
-import button2
-import popup2
+import cameraModule
+import userInput
 root = Tk()
-def pop2():
+def inputImage():
     img = ImageTk.PhotoImage(Image.open("/home/pi/Desktop/twitter/Finalfolder2/my_image.jpg"))
     panel = Label(root, image = img)
     panel.pack(side = "bottom", fill = "both", expand = "yes")
@@ -26,6 +24,6 @@ def on_closing():
     
 def fun():
     time.sleep(7)
-    cam.camera()
-    popup2.pop2()
+    cameraModule.camera()
+    userInput.inputImage()
     root.destroy()
