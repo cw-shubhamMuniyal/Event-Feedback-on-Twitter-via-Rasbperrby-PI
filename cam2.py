@@ -1,10 +1,11 @@
 from TwitterAPI import TwitterAPI
-CONSUMER_KEY    = 'phiNHlqS5FVTpydlxy7acPueP'
-CONSUMER_SECRET = '1vI5A6qHe1T3R0Q8M3Fcg5h0Dm3T0uVFM4JubvKeMCxxahzBKL'
+# Consume: get these keys from twiter handle
+CONSUMER_KEY    = ''
+CONSUMER_SECRET = ''
 
-  # Access:
-ACCESS_TOKEN  = "1002604131385688064-TNumnPutuact3cekqVXS01jemg0Bet"
-ACCESS_SECRET = "sHvnoREjBBEsvbxKhHmveNKk29yPdJ1Q8RJvNF36gVlvg"
+# Access:  get these keys from twiter handle
+ACCESS_TOKEN  = ""
+ACCESS_SECRET = ""
 
 api = TwitterAPI(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_SECRET)
 file = open('my_image.jpg', 'rb')
